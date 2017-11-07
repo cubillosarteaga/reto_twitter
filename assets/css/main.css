@@ -1,0 +1,115 @@
+/* da estilo a la cabecera*/
+body{
+	background-image: url("../../assets/images/img.jpg");
+	/*background: #AEDBE5;*/
+	background-repeat: no-repeat;
+	/*text-align: center;*/
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.container1{
+	width:100%;
+	background: #33CDFF;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+
+}
+/*aplicarinlineblock*/
+.container{
+	width: 400px;
+	height: 30%;
+	color: grey;
+	background: #fff;
+	text-align: left;
+	margin-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.txt{
+	resize: none;
+	outline: 0 none; /*para eliminar borde al escribir en textarea*/
+	
+}
+
+.text{
+	clear: both;
+	display: inline-block;
+	overflow: none;
+}
+
+/*display inlineblock*/
+.container2{
+	background: #fff;
+	width: 500px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	float: right;
+	display: inline-block;
+}
+
+.linea{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#comment{
+	border:none;
+	width: 95%;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+/*estilo a mi boton tweet*/
+#boton{
+	margin-left: 10px;
+	padding: 10px;
+	background: #33CDFF;
+	margin-right: 385px;
+	color: #fff;
+	border:none;
+}
+
+#contenido{
+	display: block;
+	margin:0 50px;
+	
+}
+
+#contenido div{
+	padding: 0em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #fff;
+	margin-top: 40px;
+
+
+}
+/*estilo al contador*/
+#contador{
+	width: 40px;
+	color: #33CDFF;
+	border: 0px;
+	background: transparent;
+	font-size: 16px;
+	font-weight: bolder;
+
+}
+
+.linea{
+	
+	border-color: #83e0ff;
+}
+
